@@ -1,0 +1,15 @@
+{
+  "name": "navigation",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "types": "lib/typescript/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build:types": "yarn tsc -p tsconfig.build.json",
+    "build:js": "yarn rollup --config"
+  }
+}

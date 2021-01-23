@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "esModuleInterop": true,
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "node",
+        "emitDeclarationOnly": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "jsx": "react"
+    }
+}
