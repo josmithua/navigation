@@ -1,4 +1,4 @@
-import { Crumb, HashHistoryManager, StateNavigator, State } from 'navigation';
+import { Crumb, HashHistoryManager, StateNavigator, State } from './index';
 
 // History Manager
 class LogHistoryManager extends HashHistoryManager {

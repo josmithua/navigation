@@ -9,7 +9,23 @@
   "types": "lib/typescript/index.d.ts",
   "scripts": {
     "clean": "rm -rf lib",
+    "test": "jest",
     "build:types": "yarn tsc -p tsconfig.build.json",
     "build:js": "yarn rollup --config"
+  },
+  "devDependencies": {
+    "jest": "26.4.2",
+    "ts-jest": "26.4.4",
+    "@types/jest": "22.2.3"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   }
 }
